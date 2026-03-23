@@ -111,18 +111,20 @@ Working with messaging systems
 ---
 
 ## 📂 Project Structure
+```bash
 src/
  ├── API
  ├── Application
  ├── Domain
  ├── Infrastructure
-
+```
 ---
 ## 🚀 Future Improvements
 Add observability (OpenTelemetry / Prometheus)
 Implement Outbox Pattern
 Add authentication & authorization
 Improve monitoring and logging
+
 ---
 ## 👩‍💻 Author
 
