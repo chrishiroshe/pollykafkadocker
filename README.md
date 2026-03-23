@@ -45,8 +45,8 @@ The solution follows a layered architecture:
 - Apache Kafka
 - Docker / Docker Compose
 - Polly
-- Entity Framework Core (optional)
-- PostgreSQL / SQL Server (optional)
+- Entity Framework Core 
+- PostgreSQL / SQL Server 
 
 ---
 
