@@ -73,12 +73,12 @@ dotnet run
 
 ---
 
-##📡 Kafka Topics
+####📡 Kafka Topics
 order-created → Order creation events
 order-processed → Processed orders
 
 ---
-##🔁 Resilience with Polly
+#####🔁 Resilience with Polly
 
 The application uses Polly to handle failures:
 
