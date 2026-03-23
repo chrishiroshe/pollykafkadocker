@@ -70,11 +70,11 @@ docker-compose up --build
 dotnet build
 dotnet run
 
-📡 Kafka Topics
+##📡 Kafka Topics
 order-created → Order creation events
 order-processed → Processed orders
 
-🔁 Resilience with Polly
+##🔁 Resilience with Polly
 
 The application uses Polly to handle failures:
 
@@ -84,14 +84,14 @@ Timeout strategies
 
 Ensuring the system remains stable under transient failures.
 
-📈 Features
+##📈 Features
 Event-driven architecture
 Asynchronous processing
 Fault tolerance
 Scalable design
 Clean and maintainable code
 
-🧠 Learnings
+##🧠 Learnings
 
 This project explores:
 
@@ -100,20 +100,20 @@ Handling eventual consistency
 Implementing resilience patterns
 Working with messaging systems
 
-📂 Project Structure
+##📂 Project Structure
 src/
  ├── API
  ├── Application
  ├── Domain
  ├── Infrastructure
 
- 🚀 Future Improvements
+## 🚀 Future Improvements
 Add observability (OpenTelemetry / Prometheus)
 Implement Outbox Pattern
 Add authentication & authorization
 Improve monitoring and logging
 
-👩‍💻 Author
+##👩‍💻 Author
 
 Senior Backend .NET Developer
 Focused on scalable, resilient, and high-performance systems
