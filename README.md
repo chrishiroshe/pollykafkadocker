@@ -73,12 +73,13 @@ dotnet run
 
 ---
 
-####📡 Kafka Topics
+## 📡 Kafka Topics
 order-created → Order creation events
 order-processed → Processed orders
 
 ---
-#####🔁 Resilience with Polly
+
+## 🔁 Resilience with Polly
 
 The application uses Polly to handle failures:
 
@@ -90,7 +91,7 @@ Ensuring the system remains stable under transient failures.
 
 ---
 
-##📈 Features
+## 📈 Features
 Event-driven architecture
 Asynchronous processing
 Fault tolerance
@@ -98,7 +99,7 @@ Scalable design
 Clean and maintainable code
 
 ---
-##🧠 Learnings
+## 🧠 Learnings
 
 This project explores:
 
@@ -108,7 +109,8 @@ Implementing resilience patterns
 Working with messaging systems
 
 ---
-##📂 Project Structure
+
+## 📂 Project Structure
 src/
  ├── API
  ├── Application
@@ -122,7 +124,7 @@ Implement Outbox Pattern
 Add authentication & authorization
 Improve monitoring and logging
 ---
-##👩‍💻 Author
+## 👩‍💻 Author
 
 Senior Backend .NET Developer
 Focused on scalable, resilient, and high-performance systems
