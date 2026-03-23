@@ -63,3 +63,58 @@ The solution follows a layered architecture:
 
 ```bash
 docker-compose up --build
+
+### 🔹 Run with Localy
+
+```bash
+dotnet build
+dotnet run
+
+📡 Kafka Topics
+order-created → Order creation events
+order-processed → Processed orders
+
+🔁 Resilience with Polly
+
+The application uses Polly to handle failures:
+
+Retry policies
+Circuit breaker
+Timeout strategies
+
+Ensuring the system remains stable under transient failures.
+
+📈 Features
+Event-driven architecture
+Asynchronous processing
+Fault tolerance
+Scalable design
+Clean and maintainable code
+
+🧠 Learnings
+
+This project explores:
+
+Designing distributed systems
+Handling eventual consistency
+Implementing resilience patterns
+Working with messaging systems
+
+📂 Project Structure
+src/
+ ├── API
+ ├── Application
+ ├── Domain
+ ├── Infrastructure
+
+ 🚀 Future Improvements
+Add observability (OpenTelemetry / Prometheus)
+Implement Outbox Pattern
+Add authentication & authorization
+Improve monitoring and logging
+
+👩‍💻 Author
+
+Senior Backend .NET Developer
+Focused on scalable, resilient, and high-performance systems
+
