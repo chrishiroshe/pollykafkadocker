@@ -6,6 +6,7 @@ using Microsoft.Extensions.Options;
 using OrderSystem.Domain.Events;
 using OrderSystem.Infrastructure.ExternalServices;
 using OrderSystem.Infrastructure.Messaging;
+using OrderSystem.Infrastructure.Observability;
 using System.Text.Json;
 
 namespace OrderSystem.Infrastructure.Workers;
@@ -71,7 +72,8 @@ public class PaymentConsumerWorker : BackgroundService
                     var successEvent = new PaymentSucceededEvent
                     {
                         OrderId = evt.OrderId,
-                        PaidAtUtc = DateTime.UtcNow
+                        PaidAtUtc = DateTime.UtcNow,
+                        CorrelationId = evt.CorrelationId,
                     };
 
                     await publisher.PublishAsync(
@@ -88,7 +90,8 @@ public class PaymentConsumerWorker : BackgroundService
                     var failEvent = new PaymentFailedEvent
                     {
                         OrderId = evt.OrderId,
-                        Reason = "Gateway failure"
+                        Reason = "Gateway failure",
+                        CorrelationId = evt.CorrelationId,
                     };
 
                     await publisher.PublishAsync(

@@ -10,5 +10,6 @@ namespace OrderSystem.Domain.Events
     {
         public Guid OrderId { get; set; }
         public DateTime PaidAtUtc { get; set; }
+        public string CorrelationId { get; set; } = default!;
     }
 }

@@ -6,6 +6,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using OrderSystem.Domain.Events;
 using OrderSystem.Infrastructure.Messaging;
+using OrderSystem.Infrastructure.Observability;
 using OrderSystem.Infrastructure.Persistence;
 using OrderSystem.Infrastructure.Sagas;
 using System.Text.Json;
@@ -101,7 +102,8 @@ public class SagaOrchestratorWorker : BackgroundService
 
                             var next = new InventoryReserveRequestedEvent
                             {
-                                OrderId = evt.OrderId
+                                OrderId = evt.OrderId,
+                                CorrelationId = evt.CorrelationId,
                             };
 
                             await publisher.PublishAsync(
@@ -113,7 +115,7 @@ public class SagaOrchestratorWorker : BackgroundService
 
                             _logger.LogInformation(
                                 "Saga: published inventory-reserve-requested for Order {OrderId}",
-                                evt.OrderId);
+                                evt.OrderId, evt.CorrelationId);
 
                             break;
                         }
@@ -134,7 +136,8 @@ public class SagaOrchestratorWorker : BackgroundService
 
                             var next = new PaymentRequestedEvent
                             {
-                                OrderId = evt.OrderId
+                                OrderId = evt.OrderId,
+                                CorrelationId = evt.CorrelationId,
                             };
 
                             await publisher.PublishAsync(
@@ -146,7 +149,7 @@ public class SagaOrchestratorWorker : BackgroundService
 
                             _logger.LogInformation(
                                 "Saga: published payment-requested for Order {OrderId}",
-                                evt.OrderId);
+                                evt.OrderId, evt.CorrelationId);
 
                             break;
                         }
@@ -168,7 +171,8 @@ public class SagaOrchestratorWorker : BackgroundService
 
                             var compensation = new InventoryReleaseRequestedEvent
                             {
-                                OrderId = evt.OrderId
+                                OrderId = evt.OrderId,
+                                CorrelationId = evt.CorrelationId,
                             };
 
                             await publisher.PublishAsync(
@@ -180,7 +184,8 @@ public class SagaOrchestratorWorker : BackgroundService
 
                             _logger.LogInformation(
                                 "Saga: published inventory-release-requested for Order {OrderId}",
-                                evt.OrderId);
+                                evt.OrderId,
+                                evt.CorrelationId);
 
                             break;
                         }
@@ -226,7 +231,8 @@ public class SagaOrchestratorWorker : BackgroundService
 
                             _logger.LogInformation(
                                 "Saga compensation completed for Order {OrderId}",
-                                evt.OrderId);
+                                evt.OrderId,
+                                evt.CorrelationId);
 
                             break;
                         }

@@ -47,18 +47,20 @@ public class OrdersService
 
         order.Confirm();
 
-        var evt = new OrderConfirmedEvent(order.Id, DateTime.UtcNow);
+        var correlationId = Activity.Current?.TraceId.ToString() ?? Guid.NewGuid().ToString("N");
+        
+        var evt = new OrderConfirmedEvent (  order.Id, DateTime.UtcNow, correlationId );
 
         await _outbox.AddAsync(
             type: "OrderConfirmed",
             payload: JsonSerializer.Serialize(evt),
-            traceId: Activity.Current?.TraceId.ToString(),
+            traceId: correlationId,
             ct: ct);
 
         // ✅ agora um save só salva Order + Outbox na mesma transação
         await _repo.SaveChangesAsync(ct);
 
-        _logger.LogInformation("Order {OrderId} confirmed and outbox event written", order.Id);
+        _logger.LogInformation("Order {OrderId} confirmed and outbox event written", order.Id, correlationId);
     }
 
     public async Task MarkAsPaidAsync(Guid id, CancellationToken ct)

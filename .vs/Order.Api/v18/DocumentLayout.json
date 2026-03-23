@@ -1,0 +1,413 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{95D1C0CA-FA7D-4ACA-BD18-71210818D252}|OrderSystem.Application\\OrderSystem.Application.csproj|c:\\users\\chiro\\source\\repos\\pollykafkadocker\\ordersystem.application\\services\\ordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95D1C0CA-FA7D-4ACA-BD18-71210818D252}|OrderSystem.Application\\OrderSystem.Application.csproj|solutionrelative:ordersystem.application\\services\\ordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|c:\\users\\chiro\\source\\repos\\pollykafkadocker\\ordersystem.domain\\events\\orderconfirmedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|solutionrelative:ordersystem.domain\\events\\orderconfirmedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|c:\\users\\chiro\\source\\repos\\pollykafkadocker\\ordersystem.domain\\events\\inventoryreserverequestedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|solutionrelative:ordersystem.domain\\events\\inventoryreserverequestedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|c:\\users\\chiro\\source\\repos\\pollykafkadocker\\ordersystem.domain\\events\\inventoryreleasedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|solutionrelative:ordersystem.domain\\events\\inventoryreleasedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|c:\\users\\chiro\\source\\repos\\pollykafkadocker\\ordersystem.infrastructure\\workers\\sagaorchestratorworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|solutionrelative:ordersystem.infrastructure\\workers\\sagaorchestratorworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|c:\\users\\chiro\\source\\repos\\pollykafkadocker\\ordersystem.infrastructure\\workers\\inventoryworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|solutionrelative:ordersystem.infrastructure\\workers\\inventoryworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|c:\\users\\chiro\\source\\repos\\pollykafkadocker\\ordersystem.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|solutionrelative:ordersystem.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|c:\\users\\chiro\\source\\repos\\pollykafkadocker\\ordersystem.infrastructure\\workers\\outboxworkerbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|solutionrelative:ordersystem.infrastructure\\workers\\outboxworkerbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|c:\\users\\chiro\\source\\repos\\pollykafkadocker\\ordersystem.infrastructure\\workers\\outboxpublisherworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|solutionrelative:ordersystem.infrastructure\\workers\\outboxpublisherworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|c:\\users\\chiro\\source\\repos\\pollykafkadocker\\ordersystem.infrastructure\\workers\\outboxcleanupworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|solutionrelative:ordersystem.infrastructure\\workers\\outboxcleanupworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|c:\\users\\chiro\\source\\repos\\pollykafkadocker\\ordersystem.infrastructure\\workers\\orderstatusupdaterworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|solutionrelative:ordersystem.infrastructure\\workers\\orderstatusupdaterworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|c:\\users\\chiro\\source\\repos\\pollykafkadocker\\ordersystem.domain\\events\\processedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|solutionrelative:ordersystem.domain\\events\\processedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|c:\\users\\chiro\\source\\repos\\pollykafkadocker\\ordersystem.domain\\events\\paymentsucceededevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|solutionrelative:ordersystem.domain\\events\\paymentsucceededevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|c:\\users\\chiro\\source\\repos\\pollykafkadocker\\ordersystem.domain\\events\\paymentrequestedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|solutionrelative:ordersystem.domain\\events\\paymentrequestedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|c:\\users\\chiro\\source\\repos\\pollykafkadocker\\ordersystem.domain\\events\\paymentfailedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|solutionrelative:ordersystem.domain\\events\\paymentfailedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|c:\\users\\chiro\\source\\repos\\pollykafkadocker\\ordersystem.domain\\events\\inventoryreservedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|solutionrelative:ordersystem.domain\\events\\inventoryreservedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|c:\\users\\chiro\\source\\repos\\pollykafkadocker\\ordersystem.domain\\events\\inventoryreservationfailedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|solutionrelative:ordersystem.domain\\events\\inventoryreservationfailedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|c:\\users\\chiro\\source\\repos\\pollykafkadocker\\ordersystem.domain\\events\\inventoryreleaserequestedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|solutionrelative:ordersystem.domain\\events\\inventoryreleaserequestedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|c:\\users\\chiro\\source\\repos\\pollykafkadocker\\ordersystem.infrastructure\\observability\\correlationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|solutionrelative:ordersystem.infrastructure\\observability\\correlationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InventoryReleasedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\InventoryReleasedEvent.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\InventoryReleasedEvent.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\InventoryReleasedEvent.cs",
+              "RelativeToolTip": "OrderSystem.Domain\\Events\\InventoryReleasedEvent.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA3wAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:15:31.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderConfirmedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\OrderConfirmedEvent.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\OrderConfirmedEvent.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\OrderConfirmedEvent.cs",
+              "RelativeToolTip": "OrderSystem.Domain\\Events\\OrderConfirmedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:16:12.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InventoryReserveRequestedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\InventoryReserveRequestedEvent.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\InventoryReserveRequestedEvent.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\InventoryReserveRequestedEvent.cs",
+              "RelativeToolTip": "OrderSystem.Domain\\Events\\InventoryReserveRequestedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:16:08.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrdersService.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Application\\Services\\OrdersService.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Application\\Services\\OrdersService.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Application\\Services\\OrdersService.cs",
+              "RelativeToolTip": "OrderSystem.Application\\Services\\OrdersService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAD4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:21:38.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SagaOrchestratorWorker.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\SagaOrchestratorWorker.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\SagaOrchestratorWorker.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\SagaOrchestratorWorker.cs",
+              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\SagaOrchestratorWorker.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAiwDYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:31:04.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InventoryWorker.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\InventoryWorker.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\InventoryWorker.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\InventoryWorker.cs",
+              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\InventoryWorker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:18:06.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "OrderSystem.Domain\\Entities\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:23:31.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OutboxWorkerBackup.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\OutboxWorkerBackup.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\OutboxWorkerBackup.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\OutboxWorkerBackup.cs",
+              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\OutboxWorkerBackup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:20:37.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OutboxPublisherWorker.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\OutboxPublisherWorker.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\OutboxPublisherWorker.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\OutboxPublisherWorker.cs",
+              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\OutboxPublisherWorker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:20:30.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OutboxCleanupWorker.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\OutboxCleanupWorker.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\OutboxCleanupWorker.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\OutboxCleanupWorker.cs",
+              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\OutboxCleanupWorker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:20:23.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderStatusUpdaterWorker.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\OrderStatusUpdaterWorker.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\OrderStatusUpdaterWorker.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\OrderStatusUpdaterWorker.cs",
+              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\OrderStatusUpdaterWorker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:19:01.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProcessedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\ProcessedEvent.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\ProcessedEvent.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\ProcessedEvent.cs",
+              "RelativeToolTip": "OrderSystem.Domain\\Events\\ProcessedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:16:32.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PaymentSucceededEvent.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\PaymentSucceededEvent.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\PaymentSucceededEvent.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\PaymentSucceededEvent.cs",
+              "RelativeToolTip": "OrderSystem.Domain\\Events\\PaymentSucceededEvent.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:16:25.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PaymentRequestedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\PaymentRequestedEvent.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\PaymentRequestedEvent.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\PaymentRequestedEvent.cs",
+              "RelativeToolTip": "OrderSystem.Domain\\Events\\PaymentRequestedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:16:21.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PaymentFailedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\PaymentFailedEvent.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\PaymentFailedEvent.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\PaymentFailedEvent.cs",
+              "RelativeToolTip": "OrderSystem.Domain\\Events\\PaymentFailedEvent.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:16:16.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InventoryReservedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\InventoryReservedEvent.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\InventoryReservedEvent.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\InventoryReservedEvent.cs",
+              "RelativeToolTip": "OrderSystem.Domain\\Events\\InventoryReservedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:16:03.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InventoryReservationFailedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\InventoryReservationFailedEvent.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\InventoryReservationFailedEvent.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\InventoryReservationFailedEvent.cs",
+              "RelativeToolTip": "OrderSystem.Domain\\Events\\InventoryReservationFailedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:15:59.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "InventoryReleaseRequestedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\InventoryReleaseRequestedEvent.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\InventoryReleaseRequestedEvent.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\InventoryReleaseRequestedEvent.cs",
+              "RelativeToolTip": "OrderSystem.Domain\\Events\\InventoryReleaseRequestedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:15:55.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CorrelationContext.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Observability\\CorrelationContext.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Observability\\CorrelationContext.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Observability\\CorrelationContext.cs",
+              "RelativeToolTip": "OrderSystem.Infrastructure\\Observability\\CorrelationContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:13:55.072Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 905,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:56:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

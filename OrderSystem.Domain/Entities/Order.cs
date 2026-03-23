@@ -21,7 +21,7 @@ namespace OrderSystem.Domain.Entities
         {
             if (Status != OrderStatus.Draft)
                 throw new InvalidOperationException("Only draft orders can be confirmed.");
-
+          
             Status = OrderStatus.Confirmed;
             FailureReason = null;
         }

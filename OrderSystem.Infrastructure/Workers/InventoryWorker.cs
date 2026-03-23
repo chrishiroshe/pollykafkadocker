@@ -5,6 +5,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using OrderSystem.Domain.Events;
 using OrderSystem.Infrastructure.Messaging;
+using OrderSystem.Infrastructure.Observability;
 using System.Text.Json;
 
 namespace OrderSystem.Infrastructure.Workers;
@@ -78,7 +79,8 @@ public class InventoryWorker : BackgroundService
                             {
                                 var reserved = new InventoryReservedEvent
                                 {
-                                    OrderId = evt.OrderId
+                                    OrderId = evt.OrderId,
+                                    CorrelationId = evt.CorrelationId,
                                 };
 
                                 await publisher.PublishAsync(
@@ -95,6 +97,7 @@ public class InventoryWorker : BackgroundService
                                 var failed = new InventoryReservationFailedEvent
                                 {
                                     OrderId = evt.OrderId,
+                                    CorrelationId = evt.CorrelationId,
                                     Reason = "Insufficient stock"
                                 };
 
@@ -118,6 +121,7 @@ public class InventoryWorker : BackgroundService
                             var released = new InventoryReleasedEvent
                             {
                                 OrderId = evt.OrderId,
+                                CorrelationId = evt.CorrelationId,
                                 ReleasedAtUtc = DateTime.UtcNow
                             };
 
