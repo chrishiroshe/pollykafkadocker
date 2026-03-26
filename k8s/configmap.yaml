@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: orders-config
+  namespace: order-system
+data:
+  ASPNETCORE_URLS: "http://0.0.0.0:8080"
+  ASPNETCORE_ENVIRONMENT: "Kubernetes"
+  DisableWorkers: "true"
+
+  PaymentGateway__BaseUrl: "http://payment-api:8081"
+
+  Outbox__MaxParallelism: "6"
+  Outbox__BatchSize: "20"
+  

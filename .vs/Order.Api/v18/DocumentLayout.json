@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{447ABF29-3B0E-411A-B144-9C488F03550A}|Order.Api\\Order.Api.csproj|c:\\users\\chiro\\source\\repos\\pollykafkadocker\\order.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{447ABF29-3B0E-411A-B144-9C488F03550A}|Order.Api\\Order.Api.csproj|solutionrelative:order.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B249D5FD-23F3-4976-9E6D-7F8916204D99}|NewFolder1{B249D5FD-23F3-4976-9E6D-7F8916204D99}|C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\namespace.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{B249D5FD-23F3-4976-9E6D-7F8916204D99}|NewFolder1{B249D5FD-23F3-4976-9E6D-7F8916204D99}|solutionrelative:namespace.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D72E813D-6AB6-4E85-9B65-E977BA343193}|Solution Items{D72E813D-6AB6-4E85-9B65-E977BA343193}|C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{D72E813D-6AB6-4E85-9B65-E977BA343193}|Solution Items{D72E813D-6AB6-4E85-9B65-E977BA343193}|solutionrelative:docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{447ABF29-3B0E-411A-B144-9C488F03550A}|Order.Api\\Order.Api.csproj|c:\\users\\chiro\\source\\repos\\pollykafkadocker\\order.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{447ABF29-3B0E-411A-B144-9C488F03550A}|Order.Api\\Order.Api.csproj|solutionrelative:order.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{447ABF29-3B0E-411A-B144-9C488F03550A}|Order.Api\\Order.Api.csproj|c:\\users\\chiro\\source\\repos\\pollykafkadocker\\order.api\\dockerfilemigration||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{447ABF29-3B0E-411A-B144-9C488F03550A}|Order.Api\\Order.Api.csproj|solutionrelative:order.api\\dockerfilemigration||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{95D1C0CA-FA7D-4ACA-BD18-71210818D252}|OrderSystem.Application\\OrderSystem.Application.csproj|c:\\users\\chiro\\source\\repos\\pollykafkadocker\\ordersystem.application\\services\\ordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95D1C0CA-FA7D-4ACA-BD18-71210818D252}|OrderSystem.Application\\OrderSystem.Application.csproj|solutionrelative:ordersystem.application\\services\\ordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -86,84 +106,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InventoryReleasedEvent.cs",
-              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\InventoryReleasedEvent.cs",
-              "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\InventoryReleasedEvent.cs",
-              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\InventoryReleasedEvent.cs",
-              "RelativeToolTip": "OrderSystem.Domain\\Events\\InventoryReleasedEvent.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAA3wAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:15:31.423Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderConfirmedEvent.cs",
-              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\OrderConfirmedEvent.cs",
-              "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\OrderConfirmedEvent.cs",
-              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\OrderConfirmedEvent.cs",
-              "RelativeToolTip": "OrderSystem.Domain\\Events\\OrderConfirmedEvent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:16:12.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InventoryReserveRequestedEvent.cs",
-              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\InventoryReserveRequestedEvent.cs",
-              "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\InventoryReserveRequestedEvent.cs",
-              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\InventoryReserveRequestedEvent.cs",
-              "RelativeToolTip": "OrderSystem.Domain\\Events\\InventoryReserveRequestedEvent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:16:08.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrdersService.cs",
-              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Application\\Services\\OrdersService.cs",
-              "RelativeDocumentMoniker": "OrderSystem.Application\\Services\\OrdersService.cs",
-              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Application\\Services\\OrdersService.cs",
-              "RelativeToolTip": "OrderSystem.Application\\Services\\OrdersService.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAD4AAABEAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\Order.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Order.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\Order.Api\\Program.cs",
+              "RelativeToolTip": "Order.Api\\Program.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAiwGEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:21:38.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SagaOrchestratorWorker.cs",
-              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\SagaOrchestratorWorker.cs",
-              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\SagaOrchestratorWorker.cs",
-              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\SagaOrchestratorWorker.cs",
-              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\SagaOrchestratorWorker.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAiwDYAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:31:04.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InventoryWorker.cs",
-              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\InventoryWorker.cs",
-              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\InventoryWorker.cs",
-              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\InventoryWorker.cs",
-              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\InventoryWorker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:18:06.247Z",
+              "WhenOpened": "2026-03-25T14:57:09.18Z",
               "EditorCaption": ""
             },
             {
@@ -173,71 +128,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Entities\\Order.cs",
-              "RelativeDocumentMoniker": "OrderSystem.Domain\\Entities\\Order.cs",
-              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Entities\\Order.cs",
-              "RelativeToolTip": "OrderSystem.Domain\\Entities\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:23:31.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OutboxWorkerBackup.cs",
-              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\OutboxWorkerBackup.cs",
-              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\OutboxWorkerBackup.cs",
-              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\OutboxWorkerBackup.cs",
-              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\OutboxWorkerBackup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:20:37.011Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OutboxPublisherWorker.cs",
-              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\OutboxPublisherWorker.cs",
-              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\OutboxPublisherWorker.cs",
-              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\OutboxPublisherWorker.cs",
-              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\OutboxPublisherWorker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:20:30.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OutboxCleanupWorker.cs",
-              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\OutboxCleanupWorker.cs",
-              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\OutboxCleanupWorker.cs",
-              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\OutboxCleanupWorker.cs",
-              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\OutboxCleanupWorker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:20:23.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "OrderStatusUpdaterWorker.cs",
-              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\OrderStatusUpdaterWorker.cs",
-              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\OrderStatusUpdaterWorker.cs",
-              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\OrderStatusUpdaterWorker.cs",
-              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\OrderStatusUpdaterWorker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAcAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:19:01.159Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -293,7 +183,202 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "namespace.yaml",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\namespace.yaml",
+              "RelativeDocumentMoniker": "namespace.yaml",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\namespace.yaml",
+              "RelativeToolTip": "namespace.yaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-03-23T18:28:10.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DockerfileMigration",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\Order.Api\\DockerfileMigration",
+              "RelativeDocumentMoniker": "Order.Api\\DockerfileMigration",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\Order.Api\\DockerfileMigration",
+              "RelativeToolTip": "Order.Api\\DockerfileMigration",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-23T18:17:40.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\Order.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "Order.Api\\Dockerfile",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\Order.Api\\Dockerfile",
+              "RelativeToolTip": "Order.Api\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-23T18:17:35.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-03-23T18:14:03.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrdersService.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Application\\Services\\OrdersService.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Application\\Services\\OrdersService.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Application\\Services\\OrdersService.cs",
+              "RelativeToolTip": "OrderSystem.Application\\Services\\OrdersService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:21:38.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderConfirmedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\OrderConfirmedEvent.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\OrderConfirmedEvent.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\OrderConfirmedEvent.cs",
+              "RelativeToolTip": "OrderSystem.Domain\\Events\\OrderConfirmedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:16:12.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InventoryReserveRequestedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\InventoryReserveRequestedEvent.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\InventoryReserveRequestedEvent.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\InventoryReserveRequestedEvent.cs",
+              "RelativeToolTip": "OrderSystem.Domain\\Events\\InventoryReserveRequestedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:16:08.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InventoryReleasedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\InventoryReleasedEvent.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\InventoryReleasedEvent.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\InventoryReleasedEvent.cs",
+              "RelativeToolTip": "OrderSystem.Domain\\Events\\InventoryReleasedEvent.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA3wAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:15:31.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SagaOrchestratorWorker.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\SagaOrchestratorWorker.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\SagaOrchestratorWorker.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\SagaOrchestratorWorker.cs",
+              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\SagaOrchestratorWorker.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAiwDYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:31:04.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InventoryWorker.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\InventoryWorker.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\InventoryWorker.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\InventoryWorker.cs",
+              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\InventoryWorker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:18:06.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "OrderSystem.Domain\\Entities\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:23:31.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OutboxWorkerBackup.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\OutboxWorkerBackup.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\OutboxWorkerBackup.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\OutboxWorkerBackup.cs",
+              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\OutboxWorkerBackup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:20:37.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OutboxPublisherWorker.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\OutboxPublisherWorker.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\OutboxPublisherWorker.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\OutboxPublisherWorker.cs",
+              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\OutboxPublisherWorker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:20:30.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OutboxCleanupWorker.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\OutboxCleanupWorker.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\OutboxCleanupWorker.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\OutboxCleanupWorker.cs",
+              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\OutboxCleanupWorker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:20:23.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderStatusUpdaterWorker.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\OrderStatusUpdaterWorker.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\OrderStatusUpdaterWorker.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Workers\\OrderStatusUpdaterWorker.cs",
+              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\OrderStatusUpdaterWorker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:19:01.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "ProcessedEvent.cs",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\ProcessedEvent.cs",
               "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\ProcessedEvent.cs",
@@ -306,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "PaymentSucceededEvent.cs",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\PaymentSucceededEvent.cs",
               "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\PaymentSucceededEvent.cs",
@@ -319,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "PaymentRequestedEvent.cs",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\PaymentRequestedEvent.cs",
               "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\PaymentRequestedEvent.cs",
@@ -332,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "PaymentFailedEvent.cs",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\PaymentFailedEvent.cs",
               "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\PaymentFailedEvent.cs",
@@ -345,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "InventoryReservedEvent.cs",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\InventoryReservedEvent.cs",
               "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\InventoryReservedEvent.cs",
@@ -358,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "InventoryReservationFailedEvent.cs",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\InventoryReservationFailedEvent.cs",
               "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\InventoryReservationFailedEvent.cs",
@@ -371,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "InventoryReleaseRequestedEvent.cs",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Domain\\Events\\InventoryReleaseRequestedEvent.cs",
               "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\InventoryReleaseRequestedEvent.cs",
@@ -384,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "CorrelationContext.cs",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\OrderSystem.Infrastructure\\Observability\\CorrelationContext.cs",
               "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Observability\\CorrelationContext.cs",
