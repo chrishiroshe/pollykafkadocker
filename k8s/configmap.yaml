@@ -6,10 +6,20 @@ metadata:
 data:
   ASPNETCORE_URLS: "http://0.0.0.0:8080"
   ASPNETCORE_ENVIRONMENT: "Kubernetes"
-  DisableWorkers: "true"
+  DisableWorkers: "false"
 
   PaymentGateway__BaseUrl: "http://payment-api:8081"
 
   Outbox__MaxParallelism: "6"
   Outbox__BatchSize: "20"
-  
+
+  Kafka__BootstrapServers: "kafka:9092"
+  Kafka__OrdersConfirmedTopic: "orders-confirmed"
+  Kafka__PaymentFailedTopic: "payment-failed"
+  Kafka__PaymentSucceededTopic: "payment-succeeded"
+  Kafka__PaymentRequestedTopic: "payment-requested"
+  Kafka__InventoryReserveRequestedTopic: "inventory-reserve-requested"
+  Kafka__InventoryReservedTopic: "inventory-reserved"
+  Kafka__InventoryReleasedRequestedTopic: "inventory-release-requested"
+  Kafka__InventoryReservationFailedTopic: "inventory-reservation-failed"
+  Kafka__InventoryReleasedTopic: "inventory-released"
