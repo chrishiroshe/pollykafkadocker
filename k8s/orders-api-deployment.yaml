@@ -19,12 +19,15 @@ spec:
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
-
+     
           envFrom:
             - configMapRef:
                 name: orders-config
             - secretRef:
                 name: orders-secret
+          env:
+            - name: DisableWorkers
+              value: "true"
           readinessProbe:
             httpGet:
               path: /health/ready

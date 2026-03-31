@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: orders-worker
+  namespace: order-system
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: orders-worker
+  template:
+    metadata:
+      labels:
+        app: orders-worker
+    spec:
+      containers:
+        - name: orders-worker
+          image: ordersystem-api:v3
+          imagePullPolicy: IfNotPresent
+          envFrom:
+            - configMapRef:
+                name: orders-config
+            - secretRef:
+                name: orders-secret
+          env:
+            - name: DisableWorkers
+              value: "false"
