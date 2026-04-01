@@ -5,6 +5,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Order.Api.Infraestruture;
 using OrderSystem.Infrastructure.Messaging;
+using OrderSystem.Infrastructure.Observability;
 using OrderSystem.Infrastructure.Outbox;
 using OrderSystem.Infrastructure.Persistence;
 
@@ -14,7 +15,8 @@ public class OutboxPublisherWorker : BackgroundService
 {
     private readonly IServiceScopeFactory _scopeFactory;
     private readonly ILogger<OutboxPublisherWorker> _logger;
-    private readonly OutboxMetrics _metrics;
+    //private readonly OutboxMetrics _metrics;
+  
     private readonly OutboxOptions _outboxOptions;
     private readonly KafkaOptions _kafkaOptions;
 
@@ -23,13 +25,13 @@ public class OutboxPublisherWorker : BackgroundService
     public OutboxPublisherWorker(
         IServiceScopeFactory scopeFactory,
         ILogger<OutboxPublisherWorker> logger,
-        OutboxMetrics metrics,
+       // OutboxMetrics metrics,
         IOptions<OutboxOptions> outboxOptions,
         IOptions<KafkaOptions> kafkaOptions)
     {
         _scopeFactory = scopeFactory;
         _logger = logger;
-        _metrics = metrics;
+        //_metrics = metrics;
         _outboxOptions = outboxOptions.Value;
         _kafkaOptions = kafkaOptions.Value;
     }
@@ -128,13 +130,15 @@ public class OutboxPublisherWorker : BackgroundService
             await db.SaveChangesAsync(ct);
             await tx.CommitAsync(ct);
 
-            _metrics.IncrementProcessed();
+            MetricsRegistry.OutboxProcessed.Inc();
+           // _metrics.IncrementProcessed();
 
             _logger.LogInformation("Outbox message {MessageId} published to Kafka", msg.Id);
         }
         catch (Exception ex)
         {
-            _metrics.IncrementFailed();
+            MetricsRegistry.OutboxFailed.Inc();
+           // _metrics.IncrementFailed();
 
             msg.Attempts++;
             msg.LastError = ex.Message;
@@ -142,7 +146,9 @@ public class OutboxPublisherWorker : BackgroundService
             if (msg.Attempts >= MaxAttempts)
             {
                 msg.DeadLetteredAtUtc = DateTime.UtcNow;
-                _metrics.IncrementDeadLettered();
+                //  _metrics.IncrementDeadLettered();
+                MetricsRegistry.OutboxDeadLetter.Inc();
+
             }
             else
             {

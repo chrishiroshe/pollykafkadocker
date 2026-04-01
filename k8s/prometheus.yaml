@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: prometheus-config
+  namespace: order-system
+data:
+  prometheus.yml: |
+    global:
+      scrape_interval: 5s
+
+    scrape_configs:
+      - job_name: 'orders-api'
+        static_configs:
+          - targets: ['orders-api:8080']
+
+      - job_name: 'orders-worker'
+        static_configs:
+          - targets: ['orders-worker:8080']

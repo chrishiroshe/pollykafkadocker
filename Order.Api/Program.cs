@@ -13,6 +13,7 @@ using OrderSystem.Infrastructure.Persistence;
 using OrderSystem.Infrastructure.ExternalServices;
 using Microsoft.Extensions.Options;
 using OrderSystem.Infrastructure.Messaging;
+using Prometheus;
 
 var builder = WebApplication.CreateBuilder(args);
 var runMode = builder.Configuration["RunMode"] ?? "api";
@@ -120,14 +121,14 @@ if (runMode == "api" )
 
     app.MapHealthChecks("/health/ready");
 
-    app.MapGet("/metrics", (OutboxMetrics metrics) =>
-    {
-        return Results.Text($@"
-        outbox_processed_total {metrics.Processed}
-        outbox_failed_total {metrics.Failed}
-        outbox_deadletter_total {metrics.DeadLettered}
-        ");
-    });
+    //app.MapGet("/metrics", (OutboxMetrics metrics) =>
+    //{
+    //    return Results.Text($@"
+    //    outbox_processed_total {metrics.Processed}
+    //    outbox_failed_total {metrics.Failed}
+    //    outbox_deadletter_total {metrics.DeadLettered}
+    //    ");
+    //});
     // Normalmente só em dev
     //if (app.Environment.IsDevelopment())
     //{
@@ -153,8 +154,10 @@ if (runMode == "api" )
     });
 
     app.MapControllers();
-
+    
 }
+app.UseHttpMetrics();
+app.MapMetrics();
 app.Run();
 
 

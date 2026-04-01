@@ -15,6 +15,7 @@ This project demonstrates the implementation of a backend system using:
 - **Polly** for resilience (retry, circuit breaker)
 - **REST APIs**
 - **Clean Architecture & SOLID principles**
+- **Prometheus**
 
 The system simulates order processing using an event-driven approach, ensuring scalability, fault tolerance, and reliability.
 
@@ -51,6 +52,7 @@ The solution follows a layered architecture:
 - Polly
 - Entity Framework Core 
 - PostgreSQL / SQL Server 
+- Prometheus
 
 ---
 
@@ -90,6 +92,7 @@ minikube image load ordersysetm-api:vX
 kubectl apply -f .\k8s\postgres.yaml
 kubectl apply -f .\k8s\kafka.yaml
 kubectl apply -f .\k8s\migration-job.yaml
+kubectl apply -f .\k8s\prometheus.yaml
 kubectl apply -f .\k8s\orders-api-deployment.yaml
 kubectl apply -f .\k8s\orders-workers-deployment.yaml
 ```
@@ -146,7 +149,7 @@ src/
 ```
 ---
 ## 🚀 Future Improvements
-Add observability (OpenTelemetry / Prometheus)
+Add observability (Grafana)
 Add authentication & authorization
 Improve monitoring and logging
 

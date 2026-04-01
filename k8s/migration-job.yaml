@@ -9,7 +9,7 @@ spec:
       restartPolicy: Never
       containers:
         - name: migration
-          image: ordersystem-api:v6
+          image: ordersystem-api:v8
           imagePullPolicy: IfNotPresent
           command:
             - /bin/sh

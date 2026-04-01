@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\chiro\\source\\repos\\Order.System\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|c:\\users\\chiro\\source\\repos\\order.system\\ordersystem.infrastructure\\observability\\metricsregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|solutionrelative:ordersystem.infrastructure\\observability\\metricsregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{447ABF29-3B0E-411A-B144-9C488F03550A}|Order.Api\\Order.Api.csproj|c:\\users\\chiro\\source\\repos\\order.system\\order.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{447ABF29-3B0E-411A-B144-9C488F03550A}|Order.Api\\Order.Api.csproj|solutionrelative:order.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|c:\\users\\chiro\\source\\repos\\order.system\\ordersystem.infrastructure\\workers\\outboxpublisherworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|solutionrelative:ordersystem.infrastructure\\workers\\outboxpublisherworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|c:\\users\\chiro\\source\\repos\\order.system\\ordersystem.infrastructure\\workers\\sagaorchestratorworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|solutionrelative:ordersystem.infrastructure\\workers\\sagaorchestratorworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|c:\\users\\chiro\\source\\repos\\order.system\\ordersystem.infrastructure\\workers\\outboxcleanupworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|solutionrelative:ordersystem.infrastructure\\workers\\outboxcleanupworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|c:\\users\\chiro\\source\\repos\\order.system\\ordersystem.infrastructure\\workers\\orderstatusupdaterworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|solutionrelative:ordersystem.infrastructure\\workers\\orderstatusupdaterworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|c:\\users\\chiro\\source\\repos\\order.system\\ordersystem.infrastructure\\workers\\outboxworkerbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|solutionrelative:ordersystem.infrastructure\\workers\\outboxworkerbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{447ABF29-3B0E-411A-B144-9C488F03550A}|Order.Api\\Order.Api.csproj|c:\\users\\chiro\\source\\repos\\order.system\\order.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -17,14 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{447ABF29-3B0E-411A-B144-9C488F03550A}|Order.Api\\Order.Api.csproj|c:\\users\\chiro\\source\\repos\\order.system\\order.api\\appsettings.docker.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{447ABF29-3B0E-411A-B144-9C488F03550A}|Order.Api\\Order.Api.csproj|solutionrelative:order.api\\appsettings.docker.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|c:\\users\\chiro\\source\\repos\\order.system\\ordersystem.infrastructure\\workers\\outboxpublisherworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|solutionrelative:ordersystem.infrastructure\\workers\\outboxpublisherworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|c:\\users\\chiro\\source\\repos\\order.system\\ordersystem.infrastructure\\workers\\outboxworkerbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|solutionrelative:ordersystem.infrastructure\\workers\\outboxworkerbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D72E813D-6AB6-4E85-9B65-E977BA343193}|Solution Items{D72E813D-6AB6-4E85-9B65-E977BA343193}|C:\\Users\\chiro\\source\\repos\\Order.System\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
@@ -55,24 +71,12 @@
       "RelativeMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|solutionrelative:ordersystem.domain\\events\\inventoryreleasedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|c:\\users\\chiro\\source\\repos\\order.system\\ordersystem.infrastructure\\workers\\sagaorchestratorworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|solutionrelative:ordersystem.infrastructure\\workers\\sagaorchestratorworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|c:\\users\\chiro\\source\\repos\\order.system\\ordersystem.infrastructure\\workers\\inventoryworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|solutionrelative:ordersystem.infrastructure\\workers\\inventoryworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|c:\\users\\chiro\\source\\repos\\order.system\\ordersystem.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|solutionrelative:ordersystem.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|c:\\users\\chiro\\source\\repos\\order.system\\ordersystem.infrastructure\\workers\\outboxcleanupworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|solutionrelative:ordersystem.infrastructure\\workers\\outboxcleanupworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|c:\\users\\chiro\\source\\repos\\order.system\\ordersystem.infrastructure\\workers\\orderstatusupdaterworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6946272C-2DC2-4D9A-B0E3-AEAFD81B2D3B}|OrderSystem.Infrastructure\\OrderSystem.Infrastructure.csproj|solutionrelative:ordersystem.infrastructure\\workers\\orderstatusupdaterworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB9A2187-DDFD-48E2-82BF-2B39246062B4}|OrderSystem.Domain\\OrderSystem.Domain.csproj|c:\\users\\chiro\\source\\repos\\order.system\\ordersystem.domain\\events\\processedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -117,11 +121,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MetricsRegistry.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Infrastructure\\Observability\\MetricsRegistry.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Observability\\MetricsRegistry.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Infrastructure\\Observability\\MetricsRegistry.cs",
+              "RelativeToolTip": "OrderSystem.Infrastructure\\Observability\\MetricsRegistry.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T13:48:51.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SagaOrchestratorWorker.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Infrastructure\\Workers\\SagaOrchestratorWorker.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\SagaOrchestratorWorker.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Infrastructure\\Workers\\SagaOrchestratorWorker.cs",
+              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\SagaOrchestratorWorker.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAEwKsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:31:04.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OutboxPublisherWorker.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Infrastructure\\Workers\\OutboxPublisherWorker.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\OutboxPublisherWorker.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Infrastructure\\Workers\\OutboxPublisherWorker.cs",
+              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\OutboxPublisherWorker.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAA9wHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:20:30.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\Order.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Order.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\Order.System\\Order.Api\\Program.cs",
+              "RelativeToolTip": "Order.Api\\Program.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAlwJcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T14:57:09.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OutboxCleanupWorker.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Infrastructure\\Workers\\OutboxCleanupWorker.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\OutboxCleanupWorker.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Infrastructure\\Workers\\OutboxCleanupWorker.cs",
+              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\OutboxCleanupWorker.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:20:23.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderStatusUpdaterWorker.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Infrastructure\\Workers\\OrderStatusUpdaterWorker.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\OrderStatusUpdaterWorker.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Infrastructure\\Workers\\OrderStatusUpdaterWorker.cs",
+              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\OrderStatusUpdaterWorker.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAQwAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:19:01.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OutboxWorkerBackup.cs",
+              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Infrastructure\\Workers\\OutboxWorkerBackup.cs",
+              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\OutboxWorkerBackup.cs",
+              "ToolTip": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Infrastructure\\Workers\\OutboxWorkerBackup.cs",
+              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\OutboxWorkerBackup.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAFkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:20:37.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\Order.Api\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Order.Api\\appsettings.Development.json",
@@ -134,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\Order.Api\\appsettings.json",
               "RelativeDocumentMoniker": "Order.Api\\appsettings.json",
@@ -147,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "appsettings.Docker.json",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\Order.Api\\appsettings.Docker.json",
               "RelativeDocumentMoniker": "Order.Api\\appsettings.Docker.json",
@@ -212,24 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\Order.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Order.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\chiro\\source\\repos\\Order.System\\Order.Api\\Program.cs",
-              "RelativeToolTip": "Order.Api\\Program.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAGwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T14:57:09.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\Order.Api\\Dockerfile",
               "RelativeDocumentMoniker": "Order.Api\\Dockerfile",
@@ -237,41 +323,12 @@
               "RelativeToolTip": "Order.Api\\Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-03-23T18:17:35.276Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OutboxWorkerBackup.cs",
-              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Infrastructure\\Workers\\OutboxWorkerBackup.cs",
-              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\OutboxWorkerBackup.cs",
-              "ToolTip": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Infrastructure\\Workers\\OutboxWorkerBackup.cs",
-              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\OutboxWorkerBackup.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFkAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:20:37.011Z",
+              "WhenOpened": "2026-03-23T18:17:35.276Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OutboxPublisherWorker.cs",
-              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Infrastructure\\Workers\\OutboxPublisherWorker.cs",
-              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\OutboxPublisherWorker.cs",
-              "ToolTip": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Infrastructure\\Workers\\OutboxPublisherWorker.cs",
-              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\OutboxPublisherWorker.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:20:30.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "DockerfileMigration",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\Order.Api\\DockerfileMigration",
               "RelativeDocumentMoniker": "Order.Api\\DockerfileMigration",
@@ -279,47 +336,49 @@
               "RelativeToolTip": "Order.Api\\DockerfileMigration",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-03-23T18:17:40.658Z"
+              "WhenOpened": "2026-03-23T18:17:40.658Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "namespace.yaml",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\namespace.yaml",
               "RelativeDocumentMoniker": "..\\pollykafkadocker\\namespace.yaml",
               "ToolTip": "C:\\Users\\chiro\\source\\repos\\pollykafkadocker\\namespace.yaml",
               "RelativeToolTip": "..\\pollykafkadocker\\namespace.yaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2026-03-23T18:28:10.393Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
               "ToolTip": "C:\\Users\\chiro\\source\\repos\\Order.System\\docker-compose.yml",
               "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGQAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAIBJwGQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-03-23T18:14:03.779Z"
+              "WhenOpened": "2026-03-23T18:14:03.779Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "OrdersService.cs",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Application\\Services\\OrdersService.cs",
               "RelativeDocumentMoniker": "OrderSystem.Application\\Services\\OrdersService.cs",
               "ToolTip": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Application\\Services\\OrdersService.cs",
               "RelativeToolTip": "OrderSystem.Application\\Services\\OrdersService.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAIBJwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:21:38.489Z"
+              "WhenOpened": "2026-03-23T17:21:38.489Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "OrderConfirmedEvent.cs",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Domain\\Events\\OrderConfirmedEvent.cs",
               "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\OrderConfirmedEvent.cs",
@@ -327,11 +386,12 @@
               "RelativeToolTip": "OrderSystem.Domain\\Events\\OrderConfirmedEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:16:12.249Z"
+              "WhenOpened": "2026-03-23T17:16:12.249Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "InventoryReserveRequestedEvent.cs",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Domain\\Events\\InventoryReserveRequestedEvent.cs",
               "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\InventoryReserveRequestedEvent.cs",
@@ -339,35 +399,25 @@
               "RelativeToolTip": "OrderSystem.Domain\\Events\\InventoryReserveRequestedEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:16:08.313Z"
+              "WhenOpened": "2026-03-23T17:16:08.313Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "InventoryReleasedEvent.cs",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Domain\\Events\\InventoryReleasedEvent.cs",
               "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\InventoryReleasedEvent.cs",
               "ToolTip": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Domain\\Events\\InventoryReleasedEvent.cs",
               "RelativeToolTip": "OrderSystem.Domain\\Events\\InventoryReleasedEvent.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAA3wAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:15:31.423Z"
+              "WhenOpened": "2026-03-23T17:15:31.423Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SagaOrchestratorWorker.cs",
-              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Infrastructure\\Workers\\SagaOrchestratorWorker.cs",
-              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\SagaOrchestratorWorker.cs",
-              "ToolTip": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Infrastructure\\Workers\\SagaOrchestratorWorker.cs",
-              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\SagaOrchestratorWorker.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAiwDYAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:31:04.312Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "InventoryWorker.cs",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Infrastructure\\Workers\\InventoryWorker.cs",
               "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\InventoryWorker.cs",
@@ -375,11 +425,12 @@
               "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\InventoryWorker.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:18:06.247Z"
+              "WhenOpened": "2026-03-23T17:18:06.247Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Domain\\Entities\\Order.cs",
               "RelativeDocumentMoniker": "OrderSystem.Domain\\Entities\\Order.cs",
@@ -387,35 +438,12 @@
               "RelativeToolTip": "OrderSystem.Domain\\Entities\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:23:31.676Z"
+              "WhenOpened": "2026-03-23T17:23:31.676Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "OutboxCleanupWorker.cs",
-              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Infrastructure\\Workers\\OutboxCleanupWorker.cs",
-              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\OutboxCleanupWorker.cs",
-              "ToolTip": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Infrastructure\\Workers\\OutboxCleanupWorker.cs",
-              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\OutboxCleanupWorker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:20:23.885Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "OrderStatusUpdaterWorker.cs",
-              "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Infrastructure\\Workers\\OrderStatusUpdaterWorker.cs",
-              "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Workers\\OrderStatusUpdaterWorker.cs",
-              "ToolTip": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Infrastructure\\Workers\\OrderStatusUpdaterWorker.cs",
-              "RelativeToolTip": "OrderSystem.Infrastructure\\Workers\\OrderStatusUpdaterWorker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAcAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:19:01.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ProcessedEvent.cs",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Domain\\Events\\ProcessedEvent.cs",
               "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\ProcessedEvent.cs",
@@ -423,11 +451,12 @@
               "RelativeToolTip": "OrderSystem.Domain\\Events\\ProcessedEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:16:32.139Z"
+              "WhenOpened": "2026-03-23T17:16:32.139Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "PaymentSucceededEvent.cs",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Domain\\Events\\PaymentSucceededEvent.cs",
               "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\PaymentSucceededEvent.cs",
@@ -435,11 +464,12 @@
               "RelativeToolTip": "OrderSystem.Domain\\Events\\PaymentSucceededEvent.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAiwAwAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:16:25.839Z"
+              "WhenOpened": "2026-03-23T17:16:25.839Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "PaymentRequestedEvent.cs",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Domain\\Events\\PaymentRequestedEvent.cs",
               "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\PaymentRequestedEvent.cs",
@@ -447,23 +477,25 @@
               "RelativeToolTip": "OrderSystem.Domain\\Events\\PaymentRequestedEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:16:21.742Z"
+              "WhenOpened": "2026-03-23T17:16:21.742Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "PaymentFailedEvent.cs",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Domain\\Events\\PaymentFailedEvent.cs",
               "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\PaymentFailedEvent.cs",
               "ToolTip": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Domain\\Events\\PaymentFailedEvent.cs",
               "RelativeToolTip": "OrderSystem.Domain\\Events\\PaymentFailedEvent.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAwAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:16:16.564Z"
+              "WhenOpened": "2026-03-23T17:16:16.564Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "InventoryReservedEvent.cs",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Domain\\Events\\InventoryReservedEvent.cs",
               "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\InventoryReservedEvent.cs",
@@ -471,11 +503,12 @@
               "RelativeToolTip": "OrderSystem.Domain\\Events\\InventoryReservedEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:16:03.823Z"
+              "WhenOpened": "2026-03-23T17:16:03.823Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "InventoryReservationFailedEvent.cs",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Domain\\Events\\InventoryReservationFailedEvent.cs",
               "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\InventoryReservationFailedEvent.cs",
@@ -483,11 +516,12 @@
               "RelativeToolTip": "OrderSystem.Domain\\Events\\InventoryReservationFailedEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:15:59.867Z"
+              "WhenOpened": "2026-03-23T17:15:59.867Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "InventoryReleaseRequestedEvent.cs",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Domain\\Events\\InventoryReleaseRequestedEvent.cs",
               "RelativeDocumentMoniker": "OrderSystem.Domain\\Events\\InventoryReleaseRequestedEvent.cs",
@@ -495,11 +529,12 @@
               "RelativeToolTip": "OrderSystem.Domain\\Events\\InventoryReleaseRequestedEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:15:55.227Z"
+              "WhenOpened": "2026-03-23T17:15:55.227Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "CorrelationContext.cs",
               "DocumentMoniker": "C:\\Users\\chiro\\source\\repos\\Order.System\\OrderSystem.Infrastructure\\Observability\\CorrelationContext.cs",
               "RelativeDocumentMoniker": "OrderSystem.Infrastructure\\Observability\\CorrelationContext.cs",
@@ -507,7 +542,8 @@
               "RelativeToolTip": "OrderSystem.Infrastructure\\Observability\\CorrelationContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAkwAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:13:55.072Z"
+              "WhenOpened": "2026-03-23T17:13:55.072Z",
+              "EditorCaption": ""
             }
           ]
         },

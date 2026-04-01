@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: orders-worker
-          image: ordersystem-api:v6
+          image: ordersystem-api:v8
           imagePullPolicy: IfNotPresent
           envFrom:
             - configMapRef:
