@@ -8,7 +8,10 @@ This project demonstrates the implementation of a backend system using:
 
 - **.NET 8 / C#**
 - **Apache Kafka** for asynchronous messaging
-- **Docker** for containerization
+- **Docker** 
+- **Kubernetes (Minukube)** 
+- **Saga Pattern** 
+- **Workers com BackgroudService** 
 - **Polly** for resilience (retry, circuit breaker)
 - **REST APIs**
 - **Clean Architecture & SOLID principles**
@@ -24,7 +27,7 @@ The solution follows a layered architecture:
 - **API Layer** → Receives requests
 - **Application Layer** → Business logic
 - **Domain Layer** → Core entities and rules
-- **Infrastructure Layer** → Kafka, persistence, external services
+- **Infrastructure Layer** → Kafka, persistence, external services, workers
 
 ---
 
@@ -43,6 +46,7 @@ The solution follows a layered architecture:
 - .NET 8
 - ASP.NET Core
 - Apache Kafka
+- Kubernetes (Minikube)
 - Docker / Docker Compose
 - Polly
 - Entity Framework Core 
@@ -72,12 +76,34 @@ dotnet run
 ```
 
 ---
+### 🔹 Build with Kubernetes and Load Minicube
 
-## 📡 Kafka Topics
-order-created → Order creation events
-order-processed → Processed orders
+```bash
+docker build -t ordersystem-api:vX -f .\Order.Api\Dockerfile
+minikube image load ordersysetm-api:vX
+```
 
 ---
+### 🔹 Deploy Minicube
+
+```bash
+kubectl apply -f .\k8s\postgres.yaml
+kubectl apply -f .\k8s\kafka.yaml
+kubectl apply -f .\k8s\migration-job.yaml
+kubectl apply -f .\k8s\orders-api-deployment.yaml
+kubectl apply -f .\k8s\orders-workers-deployment.yaml
+```
+
+---
+### 🔹 Basic Observability 
+
+```bash
+kubectl get pods -n order-system
+kubectl logs <pod-name> -n order-system 
+```
+
+---
+
 
 ## 🔁 Resilience with Polly
 
@@ -121,7 +147,6 @@ src/
 ---
 ## 🚀 Future Improvements
 Add observability (OpenTelemetry / Prometheus)
-Implement Outbox Pattern
 Add authentication & authorization
 Improve monitoring and logging
 

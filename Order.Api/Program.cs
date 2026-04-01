@@ -15,16 +15,22 @@ using Microsoft.Extensions.Options;
 using OrderSystem.Infrastructure.Messaging;
 
 var builder = WebApplication.CreateBuilder(args);
+var runMode = builder.Configuration["RunMode"] ?? "api";
+Console.WriteLine("Run mODE : { runMode}");
 
-builder.Services.AddControllers();
-
-// Swagger
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(c =>
+if (runMode == "api" )
 {
-    c.SwaggerDoc("v1", new() { Title = "Order API", Version = "v1" });
-});
+    builder.Services.AddControllers();
 
+
+    // Swagger
+    builder.Services.AddEndpointsApiExplorer();
+    builder.Services.AddSwaggerGen(c =>
+    {
+        c.SwaggerDoc("v1", new() { Title = "Order API", Version = "v1" });
+    });
+
+}
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(
@@ -45,7 +51,7 @@ builder.Services.Configure<KafkaOptions>(
 builder.Services.AddSingleton<KafkaPublisher>();
 
 
-if (!disableWorkers)
+if (runMode == "worker" )
 {
     builder.Services.AddHostedService<OutboxPublisherWorker>();
     builder.Services.AddHostedService<PaymentConsumerWorker>();
@@ -91,53 +97,64 @@ builder.Services.AddHealthChecks()
 
 var app = builder.Build();
 //garante migration subindo
-using (var scope = app.Services.CreateScope())
+if (runMode == "migration")
 {
-    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-    db.Database.Migrate();
+    using (var scope = app.Services.CreateScope())
+    {
+        var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+        db.Database.Migrate();
+
+        Console.WriteLine("Migration complete successfully.");
+        Thread.Sleep(2000);
+
+        Environment.Exit(0);
+        
+    }
 }
-
-app.MapHealthChecks("/health/live", new Microsoft.AspNetCore.Diagnostics.HealthChecks.HealthCheckOptions
+if (runMode == "api" )
 {
-    Predicate = _ => false
-});
+    app.MapHealthChecks("/health/live", new Microsoft.AspNetCore.Diagnostics.HealthChecks.HealthCheckOptions
+    {
+        Predicate = _ => false
+    });
 
-app.MapHealthChecks("/health/ready");
+    app.MapHealthChecks("/health/ready");
 
-app.MapGet("/metrics", (OutboxMetrics metrics) =>
-{
-    return Results.Text($@"
-outbox_processed_total {metrics.Processed}
-outbox_failed_total {metrics.Failed}
-outbox_deadletter_total {metrics.DeadLettered}
-");
-});
-// Normalmente só em dev
-//if (app.Environment.IsDevelopment())
-//{
-app.UseSwagger();
-app.UseSwaggerUI();
-//}
-// Configure the HTTP request pipeline.
-//if (app.Environment.IsDevelopment())
-//{
-//    app.MapOpenApi();
-////}
+    app.MapGet("/metrics", (OutboxMetrics metrics) =>
+    {
+        return Results.Text($@"
+        outbox_processed_total {metrics.Processed}
+        outbox_failed_total {metrics.Failed}
+        outbox_deadletter_total {metrics.DeadLettered}
+        ");
+    });
+    // Normalmente só em dev
+    //if (app.Environment.IsDevelopment())
+    //{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+    //}
+    // Configure the HTTP request pipeline.
+    //if (app.Environment.IsDevelopment())
+    //{
+    //    app.MapOpenApi();
+    ////}
 
-//if (!app.Environment.IsEnvironment("Docker"))
-//{
-//    app.UseHttpsRedirection();
-//}
+    //if (!app.Environment.IsEnvironment("Docker"))
+    //{
+    //    app.UseHttpsRedirection();
+    //}
 
-app.Use(async (context, next) =>
-{
-    Console.WriteLine($"Request: {context.Request.Method} {context.Request.Path}");
-    await next();
-    Console.WriteLine($"Response: {context.Response.StatusCode}");
-});
+    app.Use(async (context, next) =>
+    {
+        Console.WriteLine($"Request: {context.Request.Method} {context.Request.Path}");
+        await next();
+        Console.WriteLine($"Response: {context.Response.StatusCode}");
+    });
 
-app.MapControllers();
+    app.MapControllers();
 
+}
 app.Run();
 
 

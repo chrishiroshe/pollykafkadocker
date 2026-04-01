@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: orders-api
-          image: ordersystem-api:v3
+          image: ordersystem-api:v6
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
@@ -28,6 +28,8 @@ spec:
           env:
             - name: DisableWorkers
               value: "true"
+            - name: RunMode
+              value: "api"
           readinessProbe:
             httpGet:
               path: /health/ready

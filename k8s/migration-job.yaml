@@ -1,29 +1,27 @@
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: batch/v1
+kind: Job
 metadata:
-  name: orders-worker
+  name: orders-migration
   namespace: order-system
 spec:
-  replicas: 1
-  selector:
-    matchLabels:
-      app: orders-worker
   template:
-    metadata:
-      labels:
-        app: orders-worker
     spec:
+      restartPolicy: Never
       containers:
-        - name: orders-worker
+        - name: migration
           image: ordersystem-api:v6
           imagePullPolicy: IfNotPresent
+          command:
+            - /bin/sh
+            - -c
+            - |
+              echo "Running database migration..."
+              dotnet Order.Api.dll
           envFrom:
             - configMapRef:
                 name: orders-config
             - secretRef:
                 name: orders-secret
           env:
-            - name: DisableWorkers
-              value: "false"
             - name: RunMode
-              value: "worker"
+              value: "migration"

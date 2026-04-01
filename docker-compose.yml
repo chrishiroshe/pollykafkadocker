@@ -112,6 +112,7 @@ services:
       ASPNETCORE_URLS: http://0.0.0.0:8080
       ASPNETCORE_ENVIRONMENT: Docker
       DisableWorkers: "false"
+      "RunMode": "both"
       ConnectionStrings__DefaultConnection: Host=postgres;Port=5432;Database=ordersdb;Username=postgres;Password=postgres
       PaymentGateway__BaseUrl: http://payment_api:8081/
       PaymentGateway__Mode: random
