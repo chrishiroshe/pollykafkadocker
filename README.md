@@ -16,6 +16,7 @@ This project demonstrates the implementation of a backend system using:
 - **REST APIs**
 - **Clean Architecture & SOLID principles**
 - **Prometheus**
+- **Grafana**
 
 The system simulates order processing using an event-driven approach, ensuring scalability, fault tolerance, and reliability.
 
@@ -53,6 +54,7 @@ The solution follows a layered architecture:
 - Entity Framework Core 
 - PostgreSQL / SQL Server 
 - Prometheus
+- Grafana
 
 ---
 
@@ -92,9 +94,10 @@ minikube image load ordersysetm-api:vX
 kubectl apply -f .\k8s\postgres.yaml
 kubectl apply -f .\k8s\kafka.yaml
 kubectl apply -f .\k8s\migration-job.yaml
-kubectl apply -f .\k8s\prometheus.yaml
 kubectl apply -f .\k8s\orders-api-deployment.yaml
 kubectl apply -f .\k8s\orders-workers-deployment.yaml
+kubectl apply -f .\k8s\prometheus.yaml
+kubectl apply -f .\k8s\grafana.yaml
 ```
 
 ---
@@ -149,7 +152,7 @@ src/
 ```
 ---
 ## 🚀 Future Improvements
-Add observability (Grafana)
+Add observability (Datadog)
 Add authentication & authorization
 Improve monitoring and logging
 
